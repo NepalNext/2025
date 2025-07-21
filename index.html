@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <link rel="icon" href="favicon.png" type="image/png">
+
+ <!-- NepalNext™ SEO & Social Meta Tags -->
+<title>NepalNext™ – A Youth-Led Movement for Nepal’s Future</title>
+<meta name="description" content="NepalNext™ is a global, youth-led initiative where young Nepalis (ages 13–28) share ideas, innovations, and policies for shaping Nepal’s future.">
+<meta name="keywords" content="NepalNext, Nepal youth, Nepali innovation, youth movement Nepal, Nepal future ideas, youth policy Nepal, teenage changemakers, diaspora Nepalis, NepalNext project, Nepali youth voice">
+<meta name="author" content="NepalNext Team">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph for Social Sharing (Facebook, Discord, LinkedIn) -->
+<meta property="og:title" content="NepalNext™ – Youth-Led Vision for Nepal's Future">
+<meta property="og:description" content="Submit your ideas, projects, or policies to be featured in our global NepalNext™ Youth Manifesto. Youth-led. Global. Nepali.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nepalnext.github.io/2025/"> 
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NepalNext™ – Youth for Nepal’s Future">
+<meta name="twitter:description" content="NepalNext™ is a global initiative for young Nepalis to publish ideas, innovations, and future visions for Nepal.">
+
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="icon" href="attached_assets/NepalNext Logo_1753037088038.png" type="image/png" />
+    <style>
+      /* Smooth scrolling for navigation */
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Custom hover effects */
+      .nav-link:hover {
+        color: #2563eb;
+        transition: color 0.3s ease;
+      }
+
+      /* Mobile menu toggle */
+      .mobile-menu {
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        .desktop-nav {
+          display: none;
+        }
+        .mobile-menu {
+          display: block;
+        }
+      }
+
+      /* Social media icons hover effect */
+      .social-link:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div
+        class="container mx-auto px-4 py-4 flex justify-center items-center"
+      >
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav hidden md:flex space-x-6">
+          <a href="#home" class="nav-link hover:text-red-600 transition-colors"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="nav-link hover:text-blue-600 transition-colors"
+            >About</a
+          >
+          <a
+            href="#submit"
+            class="nav-link hover:text-red-600 transition-colors"
+            >Submit</a
+          >
+          <a
+            href="#discover"
+            class="nav-link hover:text-blue-600 transition-colors"
+            >Discover</a
+          >
+          <a
+            href="#connect"
+            class="nav-link hover:text-red-600 transition-colors"
+            >Connect</a
+          >
+          <a
+            href="#events"
+            class="nav-link hover:text-blue-600 transition-colors"
+            >Events</a
+          >
+          <a href="#faq" class="nav-link hover:text-red-600 transition-colors"
+            >FAQ</a
+          >
+          <a
+            href="#contact"
+            class="nav-link hover:text-blue-600 transition-colors"
+            >Contact</a
+          >
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button
+          class="mobile-menu md:hidden text-gray-600 hover:text-red-600 absolute right-4"
+          id="mobile-menu-btn"
+        >
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Navigation Menu -->
+      <nav
+        class="mobile-menu md:hidden bg-white border-t border-gray-200 hidden"
+        id="mobile-nav"
+      >
+        <div class="container mx-auto px-4 py-2 space-y-2">
+          <a
+            href="#home"
+            class="block py-2 hover:text-red-600 transition-colors"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="block py-2 hover:text-blue-600 transition-colors"
+            >About</a
+          >
+          <a
+            href="#submit"
+            class="block py-2 hover:text-red-600 transition-colors"
+            >Submit</a
+          >
+          <a
+            href="#discover"
+            class="block py-2 hover:text-blue-600 transition-colors"
+            >Discover</a
+          >
+          <a
+            href="#connect"
+            class="block py-2 hover:text-red-600 transition-colors"
+            >Connect</a
+          >
+          <a
+            href="#events"
+            class="block py-2 hover:text-blue-600 transition-colors"
+            >Events</a
+          >
+          <a href="#faq" class="block py-2 hover:text-red-600 transition-colors"
+            >FAQ</a
+          >
+          <a
+            href="#contact"
+            class="block py-2 hover:text-blue-600 transition-colors"
+            >Contact</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="container mx-auto px-4 py-12">
+      <div class="text-center max-w-4xl mx-auto">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+          Welcome to NepalNext™
+        </h2>
+        <p class="text-lg md:text-xl mb-8 text-gray-600">
+          Helping the youth through innovation, creativity, and community
+          engagement.
+        </p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScH5-xCzGYiRJGCLGIndsxxsT8sHZ48jByIL4jXhu0Udul_Tw/viewform?usp=dialog"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block bg-gradient-to-r from-red-600 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-red-700 hover:to-blue-700 transition-all duration-300 shadow-lg"
+        >
+          Submit Your Idea Now
+        </a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section
+      id="about"
+      class="bg-gradient-to-br from-red-50 via-white to-blue-50 py-16"
+    >
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <!-- Section Header -->
+          <div class="text-center mb-12">
+            <h2
+              class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-red-600 to-blue-600 bg-clip-text text-transparent"
+            >
+              About Us
+            </h2>
+            <div
+              class="w-24 h-1 bg-gradient-to-r from-red-500 to-blue-500 mx-auto rounded-full"
+            ></div>
+          </div>
+
+          <!-- Main Content -->
+          <div class="grid lg:grid-cols-3 gap-8 mb-12">
+            <!-- Mission Statement -->
+            <div class="lg:col-span-2">
+              <div
+                class="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/20"
+              >
+                <div class="flex items-start space-x-4 mb-6">
+                  <div
+                    class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-red-500 to-blue-600 rounded-full flex items-center justify-center"
+                  >
+                    <svg
+                      class="w-6 h-6 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                      What is NepalNext™?
+                    </h3>
+                    <p class="text-lg leading-relaxed text-gray-700 mb-4">
+                      NepalNext™ is a digital youth-led project where young
+                      Nepalis around the world, aged 13-28, can collaborate to
+                      address problems, share ideas, policies, and innovations
+                      for Nepal's future.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700">
+                      Submitters can express their ideas by submitting essays,
+                      videos, designs, slideshows, and other forms of content.
+                      The best youth-created submissions each year will be
+                      brought together and published into an annual
+                      <em class="text-red-600 font-semibold"
+                        >NepalNext™ Youth Manifesto</em
+                      >
+                      at the end of the Gregorian calendar year.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 mt-4">
+                      This manifesto will be open to the public and delivered to
+                      schools, community leaders, media outlets, and
+                      policymakers to help lead to real action.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stats/Highlights -->
+            <div class="space-y-6">
+              <div
+                class="bg-gradient-to-br from-red-500 to-red-600 p-6 rounded-2xl text-white shadow-lg"
+              >
+                <div class="text-center">
+                  <div class="text-3xl font-bold mb-2">Our Mission</div>
+                  <div class="text-red-100">
+                    NepalNext™ allows young Nepalis worldwide to collaborate,
+                    create, and share innovative ideas that shape a better
+                    future for Nepal.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="bg-gradient-to-br from-blue-500 to-blue-600 p-6 rounded-2xl text-white shadow-lg"
+              >
+                <div class="text-center">
+                  <div class="text-3xl font-bold mb-2">NepalNext™ Values</div>
+                  <div class="text-blue-100">
+                    NepalNext™ values creativity, collaboration, transparency,
+                    and sustainability.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="bg-gradient-to-br from-red-600 to-blue-600 p-6 rounded-2xl text-white shadow-lg"
+              >
+                <div class="text-center">
+                  <div class="text-3xl font-bold mb-2">How to Get Involved</div>
+                  <div class="text-red-100">
+                    Get involved by showcasing your ideas, following our
+                    Instagram, and sharing our initiative with others.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Co-Founders Section -->
+          <div
+            class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20 p-8"
+          >
+            <div class="text-center mb-8">
+              <h3 class="text-3xl font-bold text-gray-900 mb-2">
+                Meet the Co-Founders
+              </h3>
+              <p class="text-gray-600">
+                The leaders behind NepalNext™
+              </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <!-- Subham Bhattarai -->
+              <div class="group">
+                <div
+                  class="bg-gradient-to-br from-red-50 to-red-100 p-8 rounded-2xl border-2 border-transparent hover:border-red-300 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl"
+                >
+                  <div class="text-center mb-6">
+                    <div
+                      class="w-20 h-20 bg-gradient-to-r from-red-500 to-red-600 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold"
+                    >
+                      SB
+                    </div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-2">
+                      Subham Bhattarai
+                    </h4>
+                    <div
+                      class="w-12 h-1 bg-red-500 mx-auto rounded-full mb-4"
+                    ></div>
+                  </div>
+                  <p class="text-gray-700 text-center leading-relaxed">
+                    A resilient, motivated high school student looking to create positive change and
+                    innovations.
+                  </p>
+                  <div class="mt-6 flex justify-center">
+                    <div class="bg-red-500/10 px-4 py-2 rounded-full">
+                      <span class="text-red-600 font-semibold text-sm"> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Zachary Lewis -->
+              <div class="group">
+                <div
+                  class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl border-2 border-transparent hover:border-blue-300 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl"
+                >
+                  <div class="text-center mb-6">
+                    <div
+                      class="w-20 h-20 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold"
+                    >
+                      ZL
+                    </div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-2">
+                      Zachary Lewis
+                    </h4>
+                    <div
+                      class="w-12 h-1 bg-blue-500 mx-auto rounded-full mb-4"
+                    ></div>
+                  </div>
+                  <p class="text-gray-700 text-center leading-relaxed">
+                    A creative collaborator who is dedicated to global youth-led
+                    impact and community engagement.
+                  </p>
+                  <div class="mt-6 flex justify-center">
+                    <div class="bg-blue-500/10 px-4 py-2 rounded-full">
+                      <span class="text-blue-600 font-semibold text-sm"> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Submit -->
+    <section id="submit" class="py-12">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-6">Submit Your Idea</h2>
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <p class="text-lg mb-4">
+              We welcome submissions in both English and Nepali.
+            </p>
+            <p class="text-gray-600 mb-6">
+              Use the following link to submit your creative, impactful
+              submission for potential feature on our website, Instagram, or in
+              our annual
+              <em>NepalNext™ Youth Manifesto</em>. This year's submissions are
+              open until Nov. 30, 2025 (14th Mangsir, 2082 BS).
+            </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScH5-xCzGYiRJGCLGIndsxxsT8sHZ48jByIL4jXhu0Udul_Tw/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-block bg-gradient-to-r from-red-600 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-red-700 hover:to-blue-700 transition-all duration-300 shadow-lg"
+            >
+              Access Submission Form
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discover -->
+    <section id="discover" class="bg-white py-12">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-6">Discover</h2>
+          <div class="bg-gradient-to-r from-red-50 to-blue-50 p-8 rounded-lg">
+            <p class="text-lg text-gray-700">
+              Explore featured ideas from our <em>NepalNext™</em> submitters
+              soon! Stay tuned for inspiring content from the youth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connect -->
+    <section id="connect" class="py-12">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-6">Connect</h2>
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <p class="text-lg mb-4">
+              Join our social space and connect with others.
+            </p>
+            <p class="text-gray-600 mb-6">
+              Community forums and other opportunities are coming soon.
+            </p>
+            <div class="flex justify-center">
+              <a
+                href="https://instagram.com/nepalnext_"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center space-x-2 bg-gradient-to-r from-red-500 to-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-red-600 hover:to-blue-600 transition-all"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+                <span>Follow @nepalnext_</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events -->
+    <section id="events" class="bg-white py-12">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-6">Events</h2>
+          <div class="bg-gradient-to-r from-red-50 to-blue-50 p-8 rounded-lg">
+            <p class="text-lg text-gray-700 mb-4">No upcoming events yet.</p>
+            <p class="text-gray-600">
+              Follow us on social media and stay connected for updates on
+              upcoming NepalNext™ events.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="bg-white py-12">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-3xl font-bold mb-8 text-center">
+            Frequently Asked Questions
+          </h2>
+          <div class="space-y-6">
+            <div class="bg-gradient-to-r from-red-50 to-blue-50 p-6 rounded-lg">
+              <h3 class="text-xl font-semibold mb-3 text-gray-900">
+                Who can submit to NepalNext™?
+              </h3>
+              <p class="text-gray-700">
+                We welcome submissions from creative youth aged 13-28 years old
+                from Nepal and around the world who are passionate about
+                innovation and positive change.
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-3 text-gray-900">
+                What types of submissions do you accept?
+              </h3>
+              <p class="text-gray-700">
+                We accept submissions such as essays, art, poetry, slideshows,
+                videos, and any other type of innovative solution that covers
+                one's topic. Submissions can either be in English or Nepali and
+                may be translated into each other's language for clarity.
+              </p>
+            </div>
+            <div class="bg-gradient-to-r from-red-50 to-blue-50 p-6 rounded-lg">
+              <h3 class="text-xl font-semibold mb-3 text-gray-900">
+                When will the youth manifesto be published?
+              </h3>
+              <p class="text-gray-700">
+                The <em>NepalNext™ Youth Manifesto</em> is published annually
+                at the end or start of the Gregorian calendar year. Follow our
+                social media for updates on important dates.
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-3 text-gray-900">
+                What happens after I submit?
+              </h3>
+              <p class="text-gray-700">
+                Our team reviews all submissions. Selected works may be featured
+                on our website, Instagram, or included in our annual manifesto
+                publication. You will be notified if you have been selected by
+                email.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section
+      id="newsletter"
+      class="py-12 bg-gradient-to-r from-red-600 to-blue-600"
+    >
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center text-white">
+          <h2 class="text-3xl font-bold mb-6">Stay Connected</h2>
+          <p class="text-xl mb-8 opacity-90">
+            Get notified about NepalNext™ updates.
+          </p>
+          <div class="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto">
+            <p class="text-gray-700 mb-4 font-semibold">
+              Newsletter Coming Soon!
+            </p>
+            <p class="text-gray-600 text-sm mb-6">
+              We're working on our newsletter signup. For now, follow us on
+              social media for the latest updates.
+            </p>
+            <a
+              href="https://instagram.com/nepalnext_"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center space-x-2 bg-gradient-to-r from-red-500 to-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-red-600 hover:to-blue-600 transition-all"
+            >
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                />
+              </svg>
+              <span>Follow @nepalnext_</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-12">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-6">Contact & Support</h2>
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <p class="text-lg mb-6">
+              Have a question or need help? Email us at
+              <span class="font-semibold">1nepalnext1@gmail.com</span>
+            </p>
+            <div class="bg-gradient-to-r from-red-50 to-blue-50 p-4 rounded-lg">
+              <p class="text-gray-700 font-medium mb-2">Privacy & Legal</p>
+              <p class="text-gray-600 text-sm">
+                You can find our Privacy Statement and Terms of Use on the
+                submission form. For specific privacy questions, please contact
+                us directly.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-4 text-center">
+        <div class="flex justify-center items-center space-x-3 mb-4">
+          <span class="text-lg font-semibold">NepalNext™</span>
+        </div>
+        <div class="text-sm text-gray-400">
+          © 2025 NepalNext™. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for mobile menu toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+        const mobileNav = document.getElementById("mobile-nav");
+
+        mobileMenuBtn.addEventListener("click", function () {
+          mobileNav.classList.toggle("hidden");
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileLinks = mobileNav.querySelectorAll("a");
+        mobileLinks.forEach((link) => {
+          link.addEventListener("click", function () {
+            mobileNav.classList.add("hidden");
+          });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener("click", function (event) {
+          if (
+            !mobileMenuBtn.contains(event.target) &&
+            !mobileNav.contains(event.target)
+          ) {
+            mobileNav.classList.add("hidden");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
